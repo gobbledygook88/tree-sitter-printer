@@ -17,6 +17,18 @@ Install using pipx:
 pipx install git+https://github.com/gobbledygook88/tree-sitter-printer.git
 ```
 
+or via [uvx](https://docs.astral.sh/uv/guides/tools/#running-tools):
+
+```bash
+uvx --from git+https://github.com/gobbledygook88/tree-sitter-printer.git tree-sitter-printer
+```
+
+To avoid typing the full URL every time, you can [install it with uv](https://docs.astral.sh/uv/guides/tools/#installing-tools):
+
+```bash
+uv tool install git+https://github.com/gobbledygook88/tree-sitter-printer.git
+```
+
 ## Usage
 
 Print the tree-sitter tree of a file:
