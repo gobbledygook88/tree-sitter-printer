@@ -14,7 +14,7 @@ A command-line tool that prints the Abstract Syntax Tree (AST) of Python code in
 Install using pipx:
 
 ```bash
-pipx install tree-sitter-printer
+pipx install git+https://github.com/gobbledygook88/tree-sitter-printer.git
 ```
 
 ## Usage
