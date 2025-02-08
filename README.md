@@ -1,4 +1,4 @@
-# Python AST Printer
+# Tree-sitter Printer
 
 A command-line tool that prints the Abstract Syntax Tree (AST) of Python code in a readable S-expression format with syntax highlighting.
 
